@@ -3,9 +3,46 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - ProjetoDDD.UI", "0 - ProjetoDDD.UI", "{05B567AB-4D6F-43AE-BE72-3F2D5E88367A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - ProjetoDDD.Aplication", "1 - ProjetoDDD.Aplication", "{B57A2EF9-5167-4858-BD37-C6097867F34B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - ProjetoDDD.Domain", "2 - ProjetoDDD.Domain", "{A26030DA-F1CC-49F7-AE20-9DAF3BA8F2DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - ProjetoDDD.Infrastruture", "3 - ProjetoDDD.Infrastruture", "{8E3BB85A-2121-4D41-9801-1A75B691F63A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.1 - ProjetoDDD.Infrastruture.Data", "ProjetoDDD.Infrastruture.Data\3.1 - ProjetoDDD.Infrastruture.Data.csproj", "{34D47BB9-8F7B-45DA-91D9-C32DBFB00917}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.2 - ProjetoDDD.Infrastruture.IoC", "ProjetoDDD.Infrastruture.IoC\3.2 - ProjetoDDD.Infrastruture.IoC.csproj", "{3FBE3719-3736-4796-B316-6065F8C900A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoDDD.Domain", "ProjetoDDD.Domain\ProjetoDDD.Domain.csproj", "{9A25D20F-4DFE-4927-BD90-44560EDC8AC2}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34D47BB9-8F7B-45DA-91D9-C32DBFB00917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34D47BB9-8F7B-45DA-91D9-C32DBFB00917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34D47BB9-8F7B-45DA-91D9-C32DBFB00917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34D47BB9-8F7B-45DA-91D9-C32DBFB00917}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FBE3719-3736-4796-B316-6065F8C900A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FBE3719-3736-4796-B316-6065F8C900A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FBE3719-3736-4796-B316-6065F8C900A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FBE3719-3736-4796-B316-6065F8C900A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A25D20F-4DFE-4927-BD90-44560EDC8AC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A25D20F-4DFE-4927-BD90-44560EDC8AC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A25D20F-4DFE-4927-BD90-44560EDC8AC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A25D20F-4DFE-4927-BD90-44560EDC8AC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{34D47BB9-8F7B-45DA-91D9-C32DBFB00917} = {8E3BB85A-2121-4D41-9801-1A75B691F63A}
+		{3FBE3719-3736-4796-B316-6065F8C900A7} = {8E3BB85A-2121-4D41-9801-1A75B691F63A}
+		{9A25D20F-4DFE-4927-BD90-44560EDC8AC2} = {A26030DA-F1CC-49F7-AE20-9DAF3BA8F2DA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4ED79B2-57B8-4AA0-A906-F46F27D53EB1}
