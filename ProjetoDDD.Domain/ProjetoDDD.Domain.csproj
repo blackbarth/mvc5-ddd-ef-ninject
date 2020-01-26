@@ -44,7 +44,18 @@
     <Compile Include="Entities\ModuloAcesso.cs" />
     <Compile Include="Entities\PerfilUsuario.cs" />
     <Compile Include="Entities\Usuario.cs" />
+    <Compile Include="Interfaces\Infrastructure\IGerenciadorDeRepositorio.cs" />
+    <Compile Include="Interfaces\Infrastructure\IUnidadeDeTrabalho.cs" />
+    <Compile Include="Interfaces\Services\IServicePerfilUsuarioDomain.cs" />
+    <Compile Include="Interfaces\Services\Repositories\IRepositorioBase.cs" />
+    <Compile Include="Interfaces\Services\Repositories\IRepositorioDeUsuario.cs" />
+    <Compile Include="Interfaces\Services\Repositories\IRepositorioModuloAcesso.cs" />
+    <Compile Include="Interfaces\Services\Repositories\IRepositorioPerfilDeUsuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\ServicePerfilUsuarioDomain.cs" />
+    <Compile Include="Services\ServicoDeUsuarioDomain.cs" />
+    <Compile Include="Interfaces\Services\IServicoDeUsuarioDomain.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

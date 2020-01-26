@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.2 - ProjetoDDD.Infrastrut
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoDDD.Domain", "ProjetoDDD.Domain\ProjetoDDD.Domain.csproj", "{9A25D20F-4DFE-4927-BD90-44560EDC8AC2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoDDD.UI.Web", "ProjetoDDD.UI.Web\ProjetoDDD.UI.Web.csproj", "{75E21960-6ABC-4A2B-9379-FB6BD7D93A34}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{9A25D20F-4DFE-4927-BD90-44560EDC8AC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A25D20F-4DFE-4927-BD90-44560EDC8AC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A25D20F-4DFE-4927-BD90-44560EDC8AC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75E21960-6ABC-4A2B-9379-FB6BD7D93A34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75E21960-6ABC-4A2B-9379-FB6BD7D93A34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75E21960-6ABC-4A2B-9379-FB6BD7D93A34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75E21960-6ABC-4A2B-9379-FB6BD7D93A34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,6 +49,7 @@ Global
 		{34D47BB9-8F7B-45DA-91D9-C32DBFB00917} = {8E3BB85A-2121-4D41-9801-1A75B691F63A}
 		{3FBE3719-3736-4796-B316-6065F8C900A7} = {8E3BB85A-2121-4D41-9801-1A75B691F63A}
 		{9A25D20F-4DFE-4927-BD90-44560EDC8AC2} = {A26030DA-F1CC-49F7-AE20-9DAF3BA8F2DA}
+		{75E21960-6ABC-4A2B-9379-FB6BD7D93A34} = {05B567AB-4D6F-43AE-BE72-3F2D5E88367A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4ED79B2-57B8-4AA0-A906-F46F27D53EB1}

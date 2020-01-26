@@ -11,12 +11,14 @@ namespace ProjetoDDD.Domain.Entities
         public PerfilUsuario()
         {
             this.Usuarios = new List<Usuario>();
-            this.ModuloAcessos = new List<ModuloAcesso>();
+            this.ModulosAcesso = new List<ModuloAcesso>();
         }
         public int IdPerfilUsuario { get; set; }
         public string NomePerfil { get; set; }
+        public bool FlAdminMaster { get; set; }
+        public bool FlAtivo { get; set; }
         public DateTime DataCadastro { get; set; }
         public virtual ICollection<Usuario> Usuarios { get; set; }
-        public virtual ICollection<ModuloAcesso> ModuloAcessos { get; set; }
+        public virtual ICollection<ModuloAcesso> ModulosAcesso { get; set; }
     }
 }
